@@ -1,0 +1,22 @@
+{
+	"name": "front-end",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"gsap": "^3.12.4",
+		"lil-gui": "^0.19.1",
+		"vite": "^5.0.10",
+		"vite-plugin-glsl": "^1.2.1"
+	},
+	"dependencies": {
+		"three": "^0.161.0"
+	}
+}

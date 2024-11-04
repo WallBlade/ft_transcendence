@@ -1,0 +1,11 @@
+django
+psycopg2-binary>=2.8
+djangorestframework
+django-cors-headers
+Pillow
+qrcode
+pyotp
+pyjwt
+channels
+uvicorn[standard]
+cryptography

@@ -1,0 +1,59 @@
+.notifications-content {
+    padding-inline: 1.5cqi;
+    padding-top: 1cqi;
+    height: 100%;
+	width: 100%;
+    color: #F1E1CA;
+    font-family: 'Pixer';
+}
+
+.notifications-content p {
+	font-size: 1cqi;
+}
+
+.error-notification {
+	color: red;
+}
+
+.latest-notification-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: .5cqi;
+}
+
+.notif-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    cursor: pointer;
+	margin-top: .5cqi;
+}
+
+.notif-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	background: none;
+	font-size: 1cqi;
+	font-family: 'Pixer';
+	cursor: pointer;
+}
+
+.no-notification {
+	margin-top: 1cqi;
+}
+
+.accept {
+    color: green;
+}
+
+.decline {
+    color: red;
+}
+
+hr {
+    border: none;
+    border: 1px solid var(--primary);
+}

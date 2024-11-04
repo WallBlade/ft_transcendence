@@ -1,0 +1,33 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
+}
+
+.submit-button {
+    display: flex;
+    align-items: center;
+    font-family: 'Pixer';
+    padding-inline: 2vh;
+    height: 4vh;
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+	border-radius: 0.3cqi;
+    cursor: pointer;
+}
+
+.text {
+    padding-bottom: 0.2cqi;
+    font-size: 2vh;
+    margin-right: 1vh;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.arrow {
+    transform: translateY(-50%);
+    rotate: 90deg;
+    height: 1vh;
+}

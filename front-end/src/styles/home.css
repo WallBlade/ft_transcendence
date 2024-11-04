@@ -1,0 +1,199 @@
+.webgl {
+	z-index: -1;
+}
+
+.home-layer-container {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+}
+
+.home-grid-container {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-container {
+	position: absolute;
+	display: grid;
+	height: 100vh;
+	width: 100vw;
+	grid-template-columns: 0.2fr 2fr 0.2fr;
+	grid-template-rows: 0.2fr 2fr 0.2fr;
+	z-index: 0;
+}
+
+.home-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	opacity: 1;
+	grid-column-start: 2;
+	grid-row-start: 2;
+}
+
+.home-grid-layout {
+    height: 80vh;
+	width: 80vw;
+    display: grid;
+    grid-template-columns: 0.8fr 2vh 1fr 2vh 0.8fr;
+    grid-template-rows: 0.8fr 2vh 1.9fr 2vh 0.8fr;
+	grid-template-areas:
+	"profile . tournament . friends"
+	"profile . . . ."
+	"profile . selectmap . leaderboard"
+	". . . . ."
+	"achievements achievements achievements . notifications";
+}
+
+.leaderboard-grid-layout {
+	height: 80vh;
+	width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 2vh 1fr 2vh 1fr;
+    grid-template-rows: 1fr 2vh 1fr;
+    grid-template-areas:
+	"first first first . list"
+	". . . . list"
+	"second . third . list";
+}
+
+.profile-grid-layout {
+	height: 80vh;
+	width: 80vw;
+	display: grid;
+    grid-template-columns: 1fr 2vh 1fr 2vh 1fr;
+    grid-template-rows: 0.7fr 2vh 2fr 2vh 0.7fr;
+	grid-template-areas:
+        "profile . history . friends"
+		"profile . history . friends"
+		"profile . history . friends"
+		". . . . friends"
+        "achievements achievements achievements . friends";
+}
+
+.tournament-grid-layout {
+	height: 80vh;
+	width: 80vw;
+	display: grid;
+    grid-template-columns: 1fr 2vh 1fr 2vh 1fr;
+    grid-template-rows: .4fr 2vh .5fr 2vh 1fr;
+    grid-template-areas:
+        "player1 . name . player2"
+        "player1 . . . player2"
+        "player1 . map . player2"
+        ". . map . ."
+        "player3 . map . player4";
+}
+
+.box-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--primary);
+}
+
+.grid-layout {
+	position: absolute;
+	height: 80vh;
+	width: 80vw;
+}
+
+.box {
+	position: absolute;
+}
+
+.profile {
+    grid-area: profile;
+}
+
+.leaderboard {
+	grid-area: leaderboard;
+}
+
+.preview {
+	display: flex;
+	flex-direction: column;
+	padding-inline: 1.5cqi;
+	padding-top: 1cqi;
+}
+
+.selectmap {
+	grid-area: selectmap;
+}
+
+.friends {
+	grid-area: friends;
+}
+
+.name {
+	grid-area: name;
+}
+
+.friends-open {
+	grid-column: 5;
+	grid-row: 2 / 4;
+	display: none;
+}
+
+.notifications {
+	grid-area: notifications;
+	position: relative;
+}
+
+.notifications-open {
+	grid-column: 5;
+	grid-row: 3 / 6;
+	display: none;
+}
+
+.tournament {
+	grid-area: tournament;
+}
+
+.achievements {
+	grid-area: achievements;
+	display: flex;
+	justify-content: center;
+}
+
+.back-arrow {
+	grid-row-start: 2;
+	grid-column-start: 1;
+	margin-right: 1vh;
+	height: 4vh;
+	cursor: pointer;
+	rotate: -90deg;
+}
+
+.forward-arrow {
+	grid-row-start: 2;
+	grid-column-start: 3;
+	margin-left: 1vh;
+	height: 4vh;
+	cursor: pointer;
+	rotate: 90deg;
+}
+
+.avatar-profile {
+	height: 15vh;
+}
+
+.trophy {
+	height: 3vh;
+}
+
+.score {
+	font-size: 3vh;
+	
+}
+
+.inspect-icon {
+	height: 2vh;
+}

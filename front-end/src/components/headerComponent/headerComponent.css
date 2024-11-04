@@ -1,0 +1,68 @@
+.header-container {
+	grid-column-start: 2;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-inline: 4vh;
+	z-index: 1;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.header-score-container {
+	margin-top: .2cqi;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	column-gap: 1vh;
+}
+
+.header-trophy {
+	height: 2.5vh;
+}
+
+.score-value {
+	font-size: 2.5vh;
+}
+
+.header-data-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	column-gap: 8vh;
+}
+
+.header-user-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	column-gap: 1.5vh;
+}
+
+.username {
+	font-size: 2.5vh;
+}
+
+.logout {
+	margin-top: .3cqi;
+	height: 2vh;
+	cursor: pointer;
+}
+
+.header-profile-picture {
+	height: 5vh;
+}
+
+.home {
+	cursor: pointer;
+	height: 3vh;
+	margin-top: .3cqi;
+}

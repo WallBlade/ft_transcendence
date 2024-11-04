@@ -1,0 +1,35 @@
+.tournament-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.tournament-field {
+	margin-top: 1vh;
+	font-family: 'Pixer';
+	font-size: .8cqi;
+	height: 4vh;
+	border: 1px solid var(--primary);
+	border-radius: 5px;
+	background-color: transparent;
+	outline: none;
+	box-sizing: border-box;
+	padding-left: 1.2vh;
+	color: var(--primary);
+}
+
+.tournament-buttons-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-inline: .5cqi;
+}
+
+.tournament-button {
+	height: 4vh;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	color: var(--primary);
+	font-family: 'Pixer';
+	font-size: 1cqi;
+}

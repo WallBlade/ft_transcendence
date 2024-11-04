@@ -1,0 +1,52 @@
+.avatar-chooser {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+	column-gap: .8cqi;
+}
+
+.avatars-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.avatars-container label {
+	font-size: 1.2cqi;
+}
+
+.right-arrow-button {
+	height: 1cqi;
+	cursor: pointer;
+	rotate: 90deg;
+}
+
+.previous-previous-avatar {
+	height: 2cqi;
+	opacity: 0.4;
+}
+
+.previous-avatar {
+	height: 3cqi;
+	opacity: 0.7;
+}
+
+.current-avatar {
+	height: 6cqi;
+}
+
+.next-avatar {
+	height: 3cqi;
+	opacity: 0.7;
+}
+
+.next-next-avatar {
+	height: 2cqi;
+	opacity: 0.4;
+}
+
+.left-arrow-button {
+	height: 1cqi;
+	cursor: pointer;
+	rotate: -90deg;
+}

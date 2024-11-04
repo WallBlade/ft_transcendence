@@ -1,0 +1,133 @@
+.tournament-container {
+	position: relative;
+	padding: 1.5cqi;
+	height: 100%;
+	width: 100%;
+}
+
+.tournament-header-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.trophy {
+	position: absolute;
+	justify-self: center;
+	z-index: -1;
+	height: 80%;
+	opacity: 0.3;
+}
+
+.map-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.play-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 10px;
+    height: 5vh;
+    width: 100%;
+    font-family: 'pixer';
+    font-weight: 700;
+    font-size: 2.5vh;
+    margin-top: 2vh;
+}
+
+.results-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	border: 2px solid var(--primary);
+	border-radius: 1vh;
+	height: 50vh;
+    width: 40vw;
+}
+
+.winner-header-container {
+	display: flex;
+	flex-direction: row;
+	gap: 1vw;
+    align-items: center;
+}
+
+.winner-header {
+	font-size: 5vh;
+}
+
+.trophy-winner {
+	height: 5vh;
+	width: 5vh;
+}
+
+.winner-avatar {
+	height: 15vh;
+	width: 15vh;
+}
+
+.winner-name {
+	font-size: 2.5vh;
+}
+
+.brackets-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	backdrop-filter: blur(5px);
+}
+
+.match-container {
+	padding: 5cqi;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid var(--primary);
+	border-radius: .5cqi;
+	height: 80%;
+	width: 80%;
+	row-gap: 5cqi;
+}
+
+.match {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+
+.match-player-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 1.5cqi;
+}
+
+.match-avatar {
+	height: 8cqi;
+	width: 8cqi;
+}
+
+.match-versus {
+	height: 8cqi;
+	width: 8cqi;
+}

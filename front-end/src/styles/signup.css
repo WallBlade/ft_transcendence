@@ -1,0 +1,146 @@
+.signup-container {
+    display: grid;
+    grid-template-rows: 1fr 2.5fr;
+    height: 100%;
+    width: 100%;
+}
+
+.close-button {
+	height: 2cqi;
+	cursor: pointer;
+}
+
+.signup-form {
+	align-self: flex-end;
+	display: grid;
+	gap: 1.5cqi;
+	grid-template-columns: 1fr 1fr;
+}
+
+.next-step-button {
+	position: absolute;
+	bottom: 1vh;
+	left: 50%;
+	height: 2vh;
+	rotate: 180deg;
+	cursor: pointer;
+}
+
+.prev-step-button {
+	position: absolute;
+	top: 1vh;
+	left: 50%;
+	height: 2vh;
+	cursor: pointer;
+}
+
+.instructions-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.instructions-container p {
+	font-family: 'Pixer';
+	color: var(--primary);
+	font-size: 2vh;
+	margin-bottom: 1vh;
+}
+
+.two-factor-input {
+	font-family: 'Pixer';
+	font-size: 1.5vh;
+	padding-left: 2vh;
+	width: 100%;
+	height: 4vh;
+	box-sizing: border-box;
+	outline: none;
+	background-color: transparent;
+	color: var(--primary);
+	letter-spacing: 0.3vh;
+	transition: border 0.4s ease;
+    margin-top: 1.5vh;
+	border: solid 2px var(--primary);
+	border-radius: 0.3cqi;
+}
+
+.content-container {
+	grid-row-start: 2;
+}
+
+.signup-user-data {
+	display: grid;
+	grid-template-rows: 3fr 1fr;
+	height: 100%;
+}
+
+.upload-label {
+	display: flex;
+    align-items: center;
+	justify-content: center;
+    font-family: 'Pixer';
+    padding-inline: 1cqi;
+    height: 4vh;
+	font-size: .8cqi;
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+	border-radius: 0.3cqi;
+    cursor: pointer;
+}
+
+.avatar-chooser {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.avatars-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.avatars-container label {
+	font-size: 1.2cqi;
+}
+
+.right-arrow-button {
+	height: 2vh;
+	cursor: pointer;
+	rotate: 90deg;
+}
+
+.previous-previous-avatar {
+	height: 4vh;
+	opacity: 0.4;
+}
+
+.previous-avatar {
+	height: 6vh;
+	opacity: 0.7;
+}
+
+.current-avatar {
+	height: 16vh;
+}
+
+.next-avatar {
+	height: 6vh;
+	opacity: 0.7;
+}
+
+.next-next-avatar {
+	height: 4vh;
+	opacity: 0.4;
+}
+
+.left-arrow-button {
+	height: 2vh;
+	cursor: pointer;
+	rotate: -90deg;
+}
+
+.upload-input {
+	display: none;
+}

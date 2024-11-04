@@ -1,0 +1,42 @@
+.tournament-player-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	row-gap: 1cqi;
+}
+
+.player-info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	column-gap: 1cqi;
+}
+
+.player-name-input {
+	margin-top: 1vh;
+	font-family: 'Pixer';
+	font-size: .8cqi;
+	height: 4vh;
+	border: 1px solid var(--primary);
+	border-radius: 5px;
+	background-color: transparent;
+	outline: none;
+	box-sizing: border-box;
+	padding-left: 1.2vh;
+	color: var(--primary);
+	width: 80%;
+}
+
+.player-button {
+	margin-top: .4cqi;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	color: var(--primary);
+	font-family: 'Pixer';
+	font-size: 1cqi;
+}

@@ -1,0 +1,77 @@
+.slider-container {
+    width: 100%;
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align children */
+    gap: 2vh; /* Space between track and labels */
+}
+
+.track-wrapper {
+    position: relative;
+    width: 100%;
+    height: 6vh;
+    border: 2px solid var(--primary);
+    border-radius: 4vh;
+	cursor: pointer;
+}
+
+.slider-thumb {
+    opacity: 0; /* Hide the thumb initially */
+	transition: opacity 0.3s ease, left 0.4s ease;
+    pointer-events: none; /* Ignore mouse events */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 4vh;
+    height: 4vh;
+    background-color: var(--primary);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.labels-container {
+    display: flex; /* Arrange labels in a row */
+    width: 100%; /* Match width of the track */
+    justify-content: space-around; /* Distribute labels evenly */
+    padding: 0 1px;
+}
+
+.labels-container label {
+	font-size: 1em;
+}
+
+.slider-label {
+    position: static;
+	margin: 0;
+    text-align: center;
+    user-select: none;
+	opacity: 0.5;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.label-circle {
+    position: absolute;
+    height: 25px; /* Circle size */
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+    /* transition: background-color 0.3s ease, opacity 0.3s ease; */
+    z-index: 2;
+	cursor: pointer;
+}
+
+.label-circle.selected {
+    /* animation: enlarge 0.4s ease forwards; */
+    background-color: var(--primary); /* Change color for visibility */
+    /* transition: transform 0.3s ease, background-color 0.3s ease; */
+}
+
+.slider-label.selected {
+	opacity: 100%; /* Show the label */
+	transition: opacity 0.3s ease;
+}
+
+.slider-label:not(.selected), .label-circle:not(.selected) {
+    opacity: 0.5; /* Semi-transparent when not selected */
+}

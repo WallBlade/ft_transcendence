@@ -1,0 +1,31 @@
+.landing-container {
+	position: relative;
+    display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	height: 100vh;
+	width: 100vw;
+}
+
+.landing-button-container {
+	position: absolute;
+	top: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.magneto {
+	height: 20cqi;
+    width: 20cqi;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+	text-transform: uppercase;
+}
+
+.magneto .text {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 1.5cqi;
+}

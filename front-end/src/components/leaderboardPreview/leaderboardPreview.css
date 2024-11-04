@@ -1,0 +1,35 @@
+.leader-display {
+	height: auto;
+	display: flex;
+	padding-top: 3cqi;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.first-leader {
+	height: 20vh;
+}
+
+.leader-info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	column-gap: .5cqi;
+}
+
+.leader-trophy {
+	height: 2cqi;
+}
+
+.leader-name {
+	font-size: 1.5cqi;
+}
+
+.flame {
+	height: 30vh;
+	z-index: -1;
+	width: 30vh;
+	position: absolute;
+	bottom: 3cqi;
+}

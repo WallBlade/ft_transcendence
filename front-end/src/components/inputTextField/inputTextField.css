@@ -1,0 +1,52 @@
+label {
+	font-family: 'Pixer';
+	font-size: 1cqi;
+	color: var(--primary);
+	letter-spacing: 0.3vh;
+}
+
+input[type='text'],
+input[type='password'] {
+	font-family: 'Pixer';
+	font-size: .7cqi;
+	padding-left: 1.5vh;
+	width: 100%;
+	height: 4vh;
+	box-sizing: border-box;
+	outline: none;
+	background-color: transparent;
+	color: var(--primary);
+	letter-spacing: 0.3vh;
+	transition: border 0.4s ease;
+    margin-top: 1.5vh;
+	border: solid 2px var(--primary);
+	border-radius: 0.3cqi;
+	transition: 0.3s background-color ease;
+}
+
+input[type='password']:hover, input[type='password']:focus,
+input[type='text']:hover, input[type='text']:focus {
+	background-color: #1D1D1D;
+	border: none;
+    border: 2px solid var(--primary);
+}
+
+.error-message {
+	font-family: 'Pixer';
+	margin-top: 0.15vw;
+	padding-left: 0.35vw;
+	font-weight: 100;
+	font-size: 0.9cqi;
+	color: rgb(230, 78, 78);
+	opacity: 0;
+	transition: opacity 0.2s ease;
+}
+
+.error-message.show {
+	opacity: 1;
+	white-space : pre;
+}
+
+input.show {
+	border: 1px solid red;
+}

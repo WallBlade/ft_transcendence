@@ -1,0 +1,48 @@
+.signin-container {
+    display: grid;
+    grid-template-rows: 1.5fr 2.5fr;
+    height: 100%;
+    width: 100%;
+}
+
+.header-container h1 {
+    font-size: 5vh;
+	padding-bottom: 1vh;
+    z-index: 1;
+}
+
+.close-button {
+	height: 3vh;
+	cursor: pointer;
+}
+
+.fields-container {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    height: 100%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    grid-row: 1/1;
+}
+
+.no-account {
+    text-decoration: none;
+    color: var(--primary);
+    opacity: 0.5;
+    font-size: .8cqi;
+    transition: 0.4s opacity ease;
+	cursor: pointer;
+    font-family: 'Pixer';
+}
+
+.no-account:hover {
+    transition: 0.4s opacity ease;
+    opacity: 1;
+}
+
+input[type="file"] {
+    display: none;
+}

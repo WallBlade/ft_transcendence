@@ -1,0 +1,151 @@
+.friends-content {
+	display: flex;
+	flex-direction: column;
+	color: var(--primary);
+	padding-inline: 1.5cqi;
+	padding-top: 1cqi;
+	padding-bottom: .5vh;
+	position: relative;
+}
+
+.friends-search {
+	margin-top: 1vh;
+	font-family: 'Pixer';
+	font-size: .8cqi;
+	height: 4vh;
+	width: 100%;
+	border: 1px solid var(--primary);
+	border-radius: 5px;
+	background-color: transparent;
+	outline: none;
+	box-sizing: border-box;
+	padding-left: 1.2vh;
+	color: var(--primary);
+}
+
+.friends-buttons-container {
+	padding: 1vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.button {
+	height: 2vh;
+	width: 2vh;
+	cursor: pointer;
+}
+
+.extend-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.extend-friends {
+	height: 1vh;
+	width: 1.5vh;
+	transform: rotate(180deg);
+	cursor: pointer;
+	z-index: 2;
+}
+
+.friends-open {
+	padding: 1.5cqi;
+	padding-top: 0;
+	flex-direction: column;
+	overflow-y: auto;
+}
+
+.friends-open.overflowing {
+    mask-image: linear-gradient(to bottom, black calc(100% - 48px), transparent 100%);
+}
+
+.friends-open::-webkit-scrollbar {
+    width: 20px;
+}
+
+.friends-open::-webkit-scrollbar-track {
+    background: var(--secondary);
+    border: 5px solid transparent;
+    box-sizing: border-box;
+}
+
+.friends-open::-webkit-scrollbar-thumb {
+    border-radius: 2vh;
+    background: var(--primary);
+    border: 5px solid var(--secondary);
+}
+
+.profile-friend {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+    align-items: center;
+    margin-top: .5cqi;
+    padding: .6cqi;
+    border: 1px solid var(--primary);
+    border-radius: 0.3cqi;
+}
+
+.profile-name-image-container {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5cqi;
+}
+
+.profile-score-container {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+	height: 3vh;
+	width: 3vh;
+	padding-right: 1vh;
+}
+
+.user-status {
+	height: .6cqi;
+	width: .6cqi;
+	border-radius: 50%;
+}
+
+.online {
+	background-color: green;
+}
+
+.offline {
+	background-color: red;
+}
+
+.in_game {
+	background-color: blue;
+}
+
+.score-container {
+	width: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.interact-container {
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.inspect {
+	height: 2vh;
+	width: 2vh;
+	cursor: pointer;
+}

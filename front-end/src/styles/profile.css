@@ -1,0 +1,128 @@
+.profile-settings-container {
+    display: flex;
+    justify-content: center;
+}
+
+.settings-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+    font-family: 'Pixer';
+    padding-inline: 1vh;
+    padding-block: 0.5vh;
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 0.3cqi;
+    cursor: pointer;
+    height: 4vh;
+    font-size: 2vh;
+}
+
+.loop-icon {
+    height: 2vh;
+    margin-left: 1vh;
+}
+
+.history-container {
+    height: 98%;
+    display: flex;
+    padding-left: 1.5cqi;
+    padding-top: 1.5cqi;
+    padding-right: 1cqi;
+    margin: 0.1cqi;
+    flex-direction: column;
+}
+
+.list-game-container {
+    overflow-y: auto;
+}
+
+.list-game-container.overflowing {
+    mask-image: linear-gradient(to bottom, black calc(100% - 48px), transparent 100%);
+}
+
+.list-game-container::-webkit-scrollbar {
+    width: 20px;
+}
+
+.list-game-container::-webkit-scrollbar-track {
+    background: var(--secondary);
+    border: 5px solid transparent;
+    box-sizing: border-box;
+}
+
+.list-game-container::-webkit-scrollbar-thumb {
+    border-radius: 2vh;
+    background: var(--primary);
+    border: 5px solid var(--secondary);
+}
+
+.history-header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.arrow-history {
+    height: 1.7vh;
+    rotate: 180deg;
+    display: flex;
+    margin-left: 2vh;
+}
+
+.separator-history {
+    width: 100%;
+    border: none;
+    border-top: 1.5px solid var(--primary);
+    margin-top: 1vh;
+}
+
+.game {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    color: var(--primary);
+    font-size: 1.6vh;
+    margin-top: 1vh;
+}
+
+.date {
+    width: 25%;
+}
+
+.score-separator {
+    height: 2vh;
+}
+
+.indicator-win {
+    color: green;
+}
+
+.indicator-lose {
+    color: red;
+}
+
+.history-player-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+}
+
+.friend-request-status {
+    white-space: pre;
+}
+
+.profile-score {
+    font-size: 1.5vh;
+}
+
+.profile-avatar {
+    height: 2vh;
+    width: 2vh;
+}

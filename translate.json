@@ -1,0 +1,57 @@
+{
+	// ------------------------ SIGN-IN ------------------------ //
+	"signin": { "en": "Signin", "fr": "Se connecter", "es": "Iniciar sesión" },
+	"username": { "en": "Username", "fr": "Pseudo", "es": "Nombre de usuario" },
+	"password": { "en": "Password", "fr": "Mot de passe", "es": "Contraseña" },
+	"logout": { "en": "Logout", "fr": "Se déconnecter", "es": "Cerrar sesión" },
+	"no account": {
+		"en": "No account ?",
+		"fr": "Pas de compte ?",
+		"es": "sin cuenta ?"
+	},
+	"invalid username or password": {
+		"en": "Invalid username or password",
+		"fr": "Pseudo ou mot de passe invalide",
+		"es": "Nombre de usuario o contraseña inválidos"
+	},
+	// ------------------------ SIGN-UP ------------------------ //
+	"signup": { "en": "Signup", "fr": "S'inscrire", "es": "Regístrate" },
+	"repeat password": {
+		"en": "Repeat password",
+		"fr": "Répéter le mot de passe",
+		"es": "Repite la contraseña"
+	},
+	"choose appearence": {
+		"en": "Choose appearence",
+		"fr": "Choisir l'apparence",
+		"es": "Elige apariencia"
+	},
+	"upload file": {
+		"en": "Upload file",
+		"fr": "Télécharger un fichier",
+		"es": "Subir archivo"
+	},
+	// ------------------------ HOME ------------------------ //
+	"tournament": {},
+	"search ": {},
+	"friends": {},
+	"leaderboard": {},
+	"notifs": {},
+	"play": {},
+	
+	"wins": {},
+	"losses": {},
+	"winrate": {},
+	"goals": {},
+	"taken": {},
+	"ratio": {},
+	"inspect": {},
+	// BADGES
+	"bully": {},
+	"flash": {},
+	"target": {},
+	"lucky": {},
+	"winner": {},
+	// ------------------------ PRIVATE PROFILE ------------------------ //
+	"match history": {},
+}

@@ -1,0 +1,48 @@
+.auth-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.auth {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	border: 2px solid var(--primary);
+    color: var(--primary);
+	border-radius: .5cqi;
+	padding: 2.5cqi;
+}
+
+.header-auth {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.buttons-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 2cqi;
+}
+
+.first-row {
+	display: flex;
+	align-items: flex-start;
+}
+
+.signin {
+	height: 60vh;
+	width: 25vw;
+}
+
+.signup {
+	height: 60vh;
+	width: 50vw;
+}
